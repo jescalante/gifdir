@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-aws'
+gem 'file_validators'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
