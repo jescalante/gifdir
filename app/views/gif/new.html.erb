@@ -1,9 +1,9 @@
 <h1>Gif#new</h1>
 
-<%= form_for @user, html: { multipart: true } do |f| %>
+<%= form_for @gif, html: { multipart: true }, url: {action: "create"} do |f| %>
   <p>
     <label>Upload Gif</label>
-    <%= f.file_field :url %>
-    <%= f.hidden_field :url_cache %>
+    <%= f.file_field :file %>
+    <%= f.submit %>
   </p>
 <% end %>
