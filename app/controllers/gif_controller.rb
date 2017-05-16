@@ -4,5 +4,6 @@ class GifController < ApplicationController
   end
 
   def create
+    @gif = Gif.new
   end
 end
