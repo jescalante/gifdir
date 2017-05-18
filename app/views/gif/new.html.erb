@@ -4,6 +4,7 @@
   <p>
     <label>Upload Gif</label>
     <%= f.file_field :file %>
+    <%= text_field_tag 'tags', nil, placeholder: 'Enter tags here...' %>
     <%= f.submit %>
   </p>
 <% end %>
