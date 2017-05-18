@@ -27,6 +27,9 @@ gem 'pg'
 gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-aws'
 gem 'file_validators'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
